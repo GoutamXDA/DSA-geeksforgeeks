@@ -15,6 +15,7 @@ public class PalindromeNumber {
             rev = rev * 10 + lastDigit;
             temp = temp / 10;
         }
+
         return (temp == rev || temp == rev / 10);
     }
 }
